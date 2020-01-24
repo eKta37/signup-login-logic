@@ -1,0 +1,22 @@
+<% include partials/header %>
+
+<header>
+    <h1>LOGIN</h1>
+</header>
+
+<div class="content">
+    <form class="new" class="content" action="/login" method="post">
+        <div>
+            <input type="text" name="username" placeholder="username" required>
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="password" required>
+        </div>
+        <input type="submit">
+    </form>
+    <div>
+        <a href="/">Go to landing page ..</a>
+    </div>
+</div>
+
+<% include partials/footer %>
